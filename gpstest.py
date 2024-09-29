@@ -1,15 +1,25 @@
 import time
 from pymavlink import mavutil
 
+# Connect to the Pixhawk via MAVLink
+drone = mavutil.mavlink_connection('/dev/ttyAMA0', baud=57600)
+
+# Wait for the heartbeat
+drone.wait_heartbeat()
+time.sleep(1)
+
 while True:
-    drone= mavutil.mavlink_connection('/dev/ttyAMA0', baud=57600)
+    # Receive the next message
+    msg = drone.recv_match(type='GLOBAL_POSITION_INT', blocking=True)
 
-    # Wait for the heartbeat
-    drone.wait_heartbeat()
-    time.sleep(1)
+    if msg:
+        # Extract GPS data from the received message
+        lat = msg.lat * 1.0e-7
+        lon = msg.lon * 1.0e-7
 
-    lat = drone.field('GLOBAL_POSITION_INT', 'lat', 0) * 1.0e-7
-    lon = drone.field('GLOBAL_POSITION_INT', 'lon', 0) * 1.0e-7
-    print(lat)
-    print(lon)
+        # Print GPS data
+        print(f"Latitude: {lat}, Longitude: {lon}")
+
+    # Optional: Add a small sleep to avoid flooding with too many requests
+    time.sleep(0.05)
 
