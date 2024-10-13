@@ -2,7 +2,7 @@ import time
 from pymavlink import mavutil
 
 # Connect to the Pixhawk via MAVLink
-drone = mavutil.mavlink_connection('/dev/ttyAMA0', baud=57600)
+drone = mavutil.mavlink_connection('/dev/ttyS0', baud=57600)
 
 # Wait for the heartbeat
 drone.wait_heartbeat()
@@ -21,5 +21,5 @@ while True:
         print(f"Latitude: {lat}, Longitude: {lon}")
 
     # Optional: Add a small sleep to avoid flooding with too many requests
-    time.sleep(0.05)
+    time.sleep(0.001)
 
