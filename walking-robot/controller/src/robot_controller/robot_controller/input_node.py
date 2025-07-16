@@ -5,7 +5,7 @@ from std_msgs.msg import String
 class InputNode(Node):
     def __init__(self):
         super().__init__('input_node')
-        self.publisher_ = self.create_publisher(String, 'robot_command', 10)
+        self.publisher_ = self.create_publisher(String, 'stepper_motor_command', 10)
 
     def publish_command(self, command):
         msg = String()

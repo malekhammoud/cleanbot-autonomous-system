@@ -19,7 +19,7 @@ class ControllerNode(Node):
         # ROS Subscription
         self.subscription = self.create_subscription(
             String,
-            'robot_command',
+            'stepper_motor_command',
             self.command_callback,
             10)
     
