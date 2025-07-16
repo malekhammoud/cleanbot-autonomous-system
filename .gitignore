@@ -1,7 +1,17 @@
 # ROS2 build artifacts
-ros2_ws/build/
-ros2_ws/install/
-ros2_ws/log/
+walking-robot/ros2_ws_original/build/
+walking-robot/ros2_ws_original/install/
+walking-robot/ros2_ws_original/log/
+walking-robot/ros2_ws_robot/build/
+walking-robot/ros2_ws_robot/install/
+walking-robot/ros2_ws_robot/log/
+
+# Drone system logs
+drone-system/logs/
+
+# Large data files (optional - uncomment if needed)
+# drone-system/data/videos/*.mp4
+# drone-system/data/videos/*.avi
 
 # Python cache
 __pycache__/
