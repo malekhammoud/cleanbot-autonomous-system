@@ -249,19 +249,6 @@ ros2 node info /stepper_motor_control_gui
 - `input_node`: Advanced GUI with visualization
 - `controller_node`: Direct GPIO control alternative
 
-## Related Resources
-
-### Articles and Documentation:
-- **[Developing a Robotic Claw and Walking Algorithm](https://www.malekhammoud.com/articles/walking-robot)** - Detailed walkthrough of the robotic claw control system and walking algorithm development
-- **[The Anatomy-Drone: Understanding the Key Components](https://www.malekhammoud.com/articles/Anatomy-Drone)** - Overview of drone components and systems
-- **[Building an Autonomous Drone with Raspberry Pi & Pixhawk](https://www.malekhammoud.com/articles/rpi-pixhawk-drone)** - Technical implementation guide for autonomous drone development
-
-### Research Paper:
-- **[Autonomous Litter Detection and Recovery System](https://www.malekhammoud.com/Autonomous_Litter_Detection_and_Recovery_System.pdf)** - Complete research paper documenting the project methodology and results
-
-### Video Demo:
-- **[Walking Robot Demo](https://youtu.be/L3JwvKmZ_t4)** - Live demonstration of the walking robot system in action
-
 ## Additional Notes
 
 - Both packages use identical naming (`stepper_motor`) for consistency
