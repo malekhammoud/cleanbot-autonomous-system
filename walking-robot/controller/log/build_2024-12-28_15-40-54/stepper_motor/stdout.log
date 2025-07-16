@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/stepper_motor/stepper_motor.egg-info/PKG-INFO
+writing dependency_links to ../../build/stepper_motor/stepper_motor.egg-info/dependency_links.txt
+writing entry points to ../../build/stepper_motor/stepper_motor.egg-info/entry_points.txt
+writing requirements to ../../build/stepper_motor/stepper_motor.egg-info/requires.txt
+writing top-level names to ../../build/stepper_motor/stepper_motor.egg-info/top_level.txt
+reading manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying stepper_motor/controller_node.py -> /home/pi/ros2_ws/build/stepper_motor/build/lib/stepper_motor
+running install
+running install_lib
+copying /home/pi/ros2_ws/build/stepper_motor/build/lib/stepper_motor/controller_node.py -> /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor
+byte-compiling /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor/controller_node.py to controller_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/stepper_motor/stepper_motor.egg-info to /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info

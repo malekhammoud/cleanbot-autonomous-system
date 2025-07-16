@@ -1,0 +1,11 @@
+[4.449s] Invoking command in '/home/pi/ros2_ws/src/servo_motor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/stepper_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stepper_motor build --build-base /home/pi/ros2_ws/build/stepper_motor/build install --record /home/pi/ros2_ws/build/stepper_motor/install.log --single-version-externally-managed install_data
+[5.595s] running egg_info
+[5.596s] creating ../../build/stepper_motor/stepper_motor.egg-info
+[5.678s] writing ../../build/stepper_motor/stepper_motor.egg-info/PKG-INFO
+[5.679s] writing dependency_links to ../../build/stepper_motor/stepper_motor.egg-info/dependency_links.txt
+[5.680s] writing entry points to ../../build/stepper_motor/stepper_motor.egg-info/entry_points.txt
+[5.681s] writing requirements to ../../build/stepper_motor/stepper_motor.egg-info/requires.txt
+[5.681s] writing top-level names to ../../build/stepper_motor/stepper_motor.egg-info/top_level.txt
+[5.682s] writing manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[5.773s] error: package directory 'stepper_motor' does not exist
+[5.881s] Invoked command in '/home/pi/ros2_ws/src/servo_motor' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/stepper_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stepper_motor build --build-base /home/pi/ros2_ws/build/stepper_motor/build install --record /home/pi/ros2_ws/build/stepper_motor/install.log --single-version-externally-managed install_data

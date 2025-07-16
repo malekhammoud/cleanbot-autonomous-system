@@ -1,0 +1,28 @@
+[3.789s] Invoking command in '/home/pi/ros2_ws/src/stepper_motor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/stepper_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stepper_motor build --build-base /home/pi/ros2_ws/build/stepper_motor/build install --record /home/pi/ros2_ws/build/stepper_motor/install.log --single-version-externally-managed install_data
+[5.020s] running egg_info
+[5.109s] writing ../../build/stepper_motor/stepper_motor.egg-info/PKG-INFO
+[5.110s] writing dependency_links to ../../build/stepper_motor/stepper_motor.egg-info/dependency_links.txt
+[5.112s] writing entry points to ../../build/stepper_motor/stepper_motor.egg-info/entry_points.txt
+[5.113s] writing requirements to ../../build/stepper_motor/stepper_motor.egg-info/requires.txt
+[5.113s] writing top-level names to ../../build/stepper_motor/stepper_motor.egg-info/top_level.txt
+[5.295s] reading manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[5.297s] adding license file 'LICENSE'
+[5.299s] writing manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[5.300s] running build
+[5.301s] running build_py
+[5.302s] running install
+[5.327s] running install_lib
+[5.430s] running install_data
+[5.431s] running install_egg_info
+[5.533s] removing '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info' (and everything under it)
+[5.534s] error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/SOURCES.txt'
+[5.535s] error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/top_level.txt'
+[5.535s] error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/PKG-INFO'
+[5.535s] error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/zip-safe'
+[5.538s] Copying ../../build/stepper_motor/stepper_motor.egg-info to /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info
+[5.540s] error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/requires.txt'
+[5.542s] error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/dependency_links.txt'
+[5.543s] error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/entry_points.txt'
+[5.545s] error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 39] Directory not empty: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info'
+[5.546s] error: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/SOURCES.txt'
+[5.652s] Invoked command in '/home/pi/ros2_ws/src/stepper_motor' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/ros2_ws/build/stepper_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stepper_motor build --build-base /home/pi/ros2_ws/build/stepper_motor/build install --record /home/pi/ros2_ws/build/stepper_motor/install.log --single-version-externally-managed install_data

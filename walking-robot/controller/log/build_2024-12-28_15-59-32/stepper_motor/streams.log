@@ -1,0 +1,26 @@
+[2.827s] Invoking command in '/home/pi/ros2_ws/src/stepper_motor': PYTHONPATH=/home/pi/ros2_ws/build/stepper_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stepper_motor build --build-base /home/pi/ros2_ws/build/stepper_motor/build install --record /home/pi/ros2_ws/build/stepper_motor/install.log --single-version-externally-managed install_data
+[3.705s] running egg_info
+[3.757s] writing ../../build/stepper_motor/stepper_motor.egg-info/PKG-INFO
+[3.758s] writing dependency_links to ../../build/stepper_motor/stepper_motor.egg-info/dependency_links.txt
+[3.759s] writing entry points to ../../build/stepper_motor/stepper_motor.egg-info/entry_points.txt
+[3.761s] writing requirements to ../../build/stepper_motor/stepper_motor.egg-info/requires.txt
+[3.761s] writing top-level names to ../../build/stepper_motor/stepper_motor.egg-info/top_level.txt
+[3.866s] reading manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[3.868s] adding license file 'LICENSE'
+[3.870s] writing manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+[3.871s] running build
+[3.871s] running build_py
+[3.872s] copying stepper_motor/controller_node.py -> /home/pi/ros2_ws/build/stepper_motor/build/lib/stepper_motor
+[3.874s] running install
+[3.898s] running install_lib
+[3.964s] copying /home/pi/ros2_ws/build/stepper_motor/build/lib/stepper_motor/controller_node.py -> /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor
+[3.967s] byte-compiling /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor/controller_node.py to controller_node.cpython-312.pyc
+[3.971s] running install_data
+[3.972s] running install_egg_info
+[4.044s] removing '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info' (and everything under it)
+[4.045s] Copying ../../build/stepper_motor/stepper_motor.egg-info to /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info
+[4.052s] running install_scripts
+[4.511s] Installing controller_node script to /home/pi/ros2_ws/install/stepper_motor/lib/stepper_motor
+[4.512s] Installing input_node script to /home/pi/ros2_ws/install/stepper_motor/lib/stepper_motor
+[4.515s] writing list of installed files to '/home/pi/ros2_ws/build/stepper_motor/install.log'
+[4.657s] Invoked command in '/home/pi/ros2_ws/src/stepper_motor' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/stepper_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stepper_motor build --build-base /home/pi/ros2_ws/build/stepper_motor/build install --record /home/pi/ros2_ws/build/stepper_motor/install.log --single-version-externally-managed install_data

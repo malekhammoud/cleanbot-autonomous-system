@@ -1,0 +1,9 @@
+running egg_info
+creating ../../build/stepper_motor/stepper_motor.egg-info
+writing ../../build/stepper_motor/stepper_motor.egg-info/PKG-INFO
+writing dependency_links to ../../build/stepper_motor/stepper_motor.egg-info/dependency_links.txt
+writing entry points to ../../build/stepper_motor/stepper_motor.egg-info/entry_points.txt
+writing requirements to ../../build/stepper_motor/stepper_motor.egg-info/requires.txt
+writing top-level names to ../../build/stepper_motor/stepper_motor.egg-info/top_level.txt
+writing manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'
+error: package directory 'stepper_motor' does not exist

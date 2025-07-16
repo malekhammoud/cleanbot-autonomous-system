@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.001016] (stepper_motor) JobQueued: {'identifier': 'stepper_motor', 'dependencies': OrderedDict()}
+[0.001912] (stepper_motor) JobStarted: {'identifier': 'stepper_motor'}
+[0.099239] (-) TimerEvent: {}
+[0.199847] (-) TimerEvent: {}
+[0.300457] (-) TimerEvent: {}
+[0.401141] (-) TimerEvent: {}
+[0.501801] (-) TimerEvent: {}
+[0.602406] (-) TimerEvent: {}
+[0.703023] (-) TimerEvent: {}
+[0.803624] (-) TimerEvent: {}
+[0.904185] (-) TimerEvent: {}
+[1.004955] (-) TimerEvent: {}
+[1.105767] (-) TimerEvent: {}
+[1.206385] (-) TimerEvent: {}
+[1.307147] (-) TimerEvent: {}
+[1.408069] (-) TimerEvent: {}
+[1.508671] (-) TimerEvent: {}
+[1.609275] (-) TimerEvent: {}
+[1.709973] (-) TimerEvent: {}
+[1.810570] (-) TimerEvent: {}
+[1.911164] (-) TimerEvent: {}
+[2.011792] (-) TimerEvent: {}
+[2.112392] (-) TimerEvent: {}
+[2.213026] (-) TimerEvent: {}
+[2.313588] (-) TimerEvent: {}
+[2.414191] (-) TimerEvent: {}
+[2.514864] (-) TimerEvent: {}
+[2.615469] (-) TimerEvent: {}
+[2.716107] (-) TimerEvent: {}
+[2.816718] (-) TimerEvent: {}
+[2.917305] (-) TimerEvent: {}
+[3.017954] (-) TimerEvent: {}
+[3.118584] (-) TimerEvent: {}
+[3.219163] (-) TimerEvent: {}
+[3.319786] (-) TimerEvent: {}
+[3.420382] (-) TimerEvent: {}
+[3.521035] (-) TimerEvent: {}
+[3.621699] (-) TimerEvent: {}
+[3.722711] (-) TimerEvent: {}
+[3.782782] (stepper_motor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/stepper_motor', 'build', '--build-base', '/home/pi/ros2_ws/build/stepper_motor/build', 'install', '--record', '/home/pi/ros2_ws/build/stepper_motor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/ros2_ws/src/stepper_motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '192.168.0.24 36312 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-15550945-e805-4a4c-8179-3cc0d09b66af.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-e4147c799a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/stepper_motor:/home/pi/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/ros2_ws/build/stepper_motor', 'SSH_CONNECTION': '192.168.0.24 36312 192.168.0.17 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2_ws/build/stepper_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages:/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages:/home/pi/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.822870] (-) TimerEvent: {}
+[3.923548] (-) TimerEvent: {}
+[4.024182] (-) TimerEvent: {}
+[4.124919] (-) TimerEvent: {}
+[4.225595] (-) TimerEvent: {}
+[4.326274] (-) TimerEvent: {}
+[4.427091] (-) TimerEvent: {}
+[4.527705] (-) TimerEvent: {}
+[4.628273] (-) TimerEvent: {}
+[4.728944] (-) TimerEvent: {}
+[4.829568] (-) TimerEvent: {}
+[4.930150] (-) TimerEvent: {}
+[5.022036] (stepper_motor) StdoutLine: {'line': b'running egg_info\n'}
+[5.030288] (-) TimerEvent: {}
+[5.111095] (stepper_motor) StdoutLine: {'line': b'writing ../../build/stepper_motor/stepper_motor.egg-info/PKG-INFO\n'}
+[5.112334] (stepper_motor) StdoutLine: {'line': b'writing dependency_links to ../../build/stepper_motor/stepper_motor.egg-info/dependency_links.txt\n'}
+[5.113539] (stepper_motor) StdoutLine: {'line': b'writing entry points to ../../build/stepper_motor/stepper_motor.egg-info/entry_points.txt\n'}
+[5.114467] (stepper_motor) StdoutLine: {'line': b'writing requirements to ../../build/stepper_motor/stepper_motor.egg-info/requires.txt\n'}
+[5.115318] (stepper_motor) StdoutLine: {'line': b'writing top-level names to ../../build/stepper_motor/stepper_motor.egg-info/top_level.txt\n'}
+[5.130433] (-) TimerEvent: {}
+[5.231046] (-) TimerEvent: {}
+[5.297300] (stepper_motor) StdoutLine: {'line': b"reading manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'\n"}
+[5.298930] (stepper_motor) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.301254] (stepper_motor) StdoutLine: {'line': b"writing manifest file '../../build/stepper_motor/stepper_motor.egg-info/SOURCES.txt'\n"}
+[5.302012] (stepper_motor) StdoutLine: {'line': b'running build\n'}
+[5.302567] (stepper_motor) StdoutLine: {'line': b'running build_py\n'}
+[5.304240] (stepper_motor) StdoutLine: {'line': b'running install\n'}
+[5.328949] (stepper_motor) StdoutLine: {'line': b'running install_lib\n'}
+[5.331170] (-) TimerEvent: {}
+[5.431750] (-) TimerEvent: {}
+[5.432224] (stepper_motor) StdoutLine: {'line': b'running install_data\n'}
+[5.433106] (stepper_motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.531953] (-) TimerEvent: {}
+[5.534935] (stepper_motor) StdoutLine: {'line': b"removing '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.535714] (stepper_motor) StderrLine: {'line': b"error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/SOURCES.txt'\n"}
+[5.536523] (stepper_motor) StderrLine: {'line': b"error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/top_level.txt'\n"}
+[5.536986] (stepper_motor) StderrLine: {'line': b"error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/PKG-INFO'\n"}
+[5.537355] (stepper_motor) StderrLine: {'line': b"error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/zip-safe'\n"}
+[5.539033] (stepper_motor) StdoutLine: {'line': b'Copying ../../build/stepper_motor/stepper_motor.egg-info to /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info\n'}
+[5.541472] (stepper_motor) StderrLine: {'line': b"error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/requires.txt'\n"}
+[5.543194] (stepper_motor) StderrLine: {'line': b"error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/dependency_links.txt'\n"}
+[5.544806] (stepper_motor) StderrLine: {'line': b"error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/entry_points.txt'\n"}
+[5.546026] (stepper_motor) StderrLine: {'line': b"error removing /home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info: [Errno 39] Directory not empty: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info'\n"}
+[5.547248] (stepper_motor) StderrLine: {'line': b"error: [Errno 13] Permission denied: '/home/pi/ros2_ws/install/stepper_motor/lib/python3.12/site-packages/stepper_motor-0.0.0-py3.12.egg-info/SOURCES.txt'\n"}
+[5.632208] (-) TimerEvent: {}
+[5.653333] (stepper_motor) CommandEnded: {'returncode': 1}
+[5.654430] (stepper_motor) JobEnded: {'identifier': 'stepper_motor', 'rc': 1}
+[5.665793] (-) EventReactorShutdown: {}
