@@ -6,16 +6,16 @@ This project provides ROS2 packages for controlling stepper and servo motors.
 
 ### `controller/`
 - Contains the ROS2 package for controller functionality
-- **Package Name**: `stepper_motor`
+- **Package Name**: `robot_controller`
 - **Purpose**: Controls the motor functionality including movement and servo control.
 - **Features**:
   - Serial communication with the hardware via /dev/ttyACM0
-  - ROS2 topic communication via `stepper_motor_command`
+  - ROS2 topic communication via `robot_command`
   - Direct GPIO control for stepper motor operations
 
 ### `input/`
 - Contains the ROS2 package for receiving and processing input commands
-- **Package Name**: `stepper_motor`
+- **Package Name**: `robot_interface`
 - **Purpose**: Provides tools for input command processing and GUI control.
 - **Features**:
   - GUI for controlling servo angles and stepper motor movement
@@ -29,7 +29,7 @@ This project provides ROS2 packages for controlling stepper and servo motors.
 cd controller
 colcon build
 source install/setup.bash
-ros2 run stepper_motor controller_node
+ros2 run robot_controller controller_node
 ```
 
 ### For input:
@@ -37,7 +37,7 @@ ros2 run stepper_motor controller_node
 cd input
 colcon build
 source install/setup.bash
-ros2 run stepper_motor input_node
+ros2 run robot_interface input_node
 ```
 
 ## Hardware Requirements
@@ -59,18 +59,18 @@ ros2 run stepper_motor input_node
 
 ## Components Detail
 
-### Controller Package (`controller/src/stepper_motor/`)
+### Controller Package (`controller/src/robot_controller/`)
 
 #### core Files:
 - `controller_node.py`: Serial communication node for forwarding commands to the hardware and handling responses via the serial port
 - `stepper_motor.py`: Provides direct GPIO control over stepper motors
 
 #### Features:
-- Listens on `stepper_motor_command` topic and forwards commands via a serial connection
+- Listens on `robot_command` topic and forwards commands via a serial connection
 - Implements serial error handling and logging
 - Commands hardware to rotate motors and control servo angles using received commands
 
-### Input Package (`input/src/stepper_motor/`)
+### Interface Package (`input/src/robot_interface/`)
 
 #### core Files:
 - `input_node.py`: GUI for user command input and visualization with advanced features
@@ -86,7 +86,7 @@ ros2 run stepper_motor input_node
 ## Communication Protocol
 
 ### ROS2 Topics:
-- **Topic Name**: `stepper_motor_command`
+- **Topic Name**: `robot_command`
 - **Message Type**: `std_msgs/String`
 - **Direction**: input_node → controller_node
 
@@ -126,7 +126,7 @@ ros2 run stepper_motor input_node
    cd controller
    colcon build
    source install/setup.bash
-   ros2 run stepper_motor controller_node
+   ros2 run robot_controller controller_node
    ```
 
 2. **GUI Node Execution**:
@@ -134,7 +134,7 @@ ros2 run stepper_motor input_node
    cd input
    colcon build
    source install/setup.bash
-   ros2 run stepper_motor input_node
+   ros2 run robot_interface input_node
    ```
 
 ### Interactive GUI:
@@ -159,7 +159,7 @@ ros2 run stepper_motor input_node
 3. **ROS2 Issues**:
    - Confirm both nodes are operational
    - Use `ros2 topic list` to verify topic activity
-   - Echo messages with `ros2 topic echo /stepper_motor_command` to monitor traffic
+   - Echo messages with `ros2 topic echo /robot_command` to monitor traffic
 
 4. **GUI Display Errors**:
    - Confirm X11 forwarding for remote access
@@ -169,7 +169,7 @@ ros2 run stepper_motor input_node
 ### Quick Testing Commands:
 ```bash
 # Publish Test Command
-ros2 topic pub /stepper_motor_command std_msgs/String "data: 'L'"
+ros2 topic pub /robot_command std_msgs/String "data: 'L'"
 
 # Nodes List
 ros2 node list
@@ -241,17 +241,17 @@ ros2 node info /stepper_motor_control_gui
 
 ## Available Entry Points
 
-### Controller Package:
+### Controller Package (`robot_controller`):
 - `controller_node`: Main serial communication node
 - `input_node`: Simple CLI input interface
 
-### Input Package:
+### Interface Package (`robot_interface`):
 - `input_node`: Advanced GUI with visualization
 - `controller_node`: Direct GPIO control alternative
 
 ## Additional Notes
 
-- Both packages use identical naming (`stepper_motor`) for consistency
+- The packages use descriptive naming (`robot_controller` and `robot_interface`) for clarity
 - The GUI provides both visual control and direct GPIO manipulation options
 - Serial communication centralizes hardware abstraction in the controller
 - The visualization system includes real-time joint calculations and inverse kinematics
