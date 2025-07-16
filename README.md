@@ -6,19 +6,39 @@ A comprehensive Science Fair project for automated litter detection and collecti
 
 ```
 litter-automation/
-├── drone-system/           # 🚁 Autonomous drone control
-│   ├── scripts/            # Python flight control scripts
-│   ├── data/              # Organized mission data
-│   │   ├── videos/        # Flight recordings
-│   │   ├── gps_logs/      # GPS trajectory data
-│   │   ├── images/        # Captured images
-│   │   └── databases/     # SQLite data storage
-│   ├── config/            # MAVLink configuration
-│   └── logs/              # System logs
-├── walking-robot/         # 🤖 Ground-based robot control
-│   ├── ros2_ws_original/  # Original robot package
-│   └── ros2_ws_robot/     # Enhanced walking robot
-└── docs/                  # 📚 Documentation
+├── drone-system/                    # 🚁 Complete drone automation system
+│   ├── scripts/                     # 📝 Python flight control scripts (17 files)
+│   │   ├── main.py                 # Main automation control
+│   │   ├── drone.py                # Drone control class
+│   │   ├── control.py              # Flight control logic
+│   │   ├── gps-camera-record.py    # GPS-enabled recording
+│   │   ├── camera-segmentation.py  # Image processing
+│   │   ├── live-detect.py          # Real-time detection
+│   │   ├── takeoff_and_land.py     # Basic flight ops
+│   │   ├── easy_mission.py         # Simple missions
+│   │   ├── guided_mission.py       # Advanced missions
+│   │   ├── full.py                 # Complete automation
+│   │   └── ... (6 more scripts)    # Testing and utility scripts
+│   ├── data/                       # 📊 Organized mission data
+│   │   ├── videos/                 # 🎥 Flight recordings (6 MP4 files)
+│   │   ├── gps_logs/               # 🗺️ GPS trajectory data (5 CSV files)
+│   │   ├── images/                 # 📸 Captured & processed images
+│   │   │   └── captured/           # Raw mission images
+│   │   └── databases/              # 🗃️ SQLite coordinate storage
+│   ├── config/                     # ⚙️ MAVLink configuration
+│   │   ├── mav.parm                # MAVLink parameters
+│   │   ├── mav.tlog                # Telemetry logs
+│   │   └── mav.tlog.raw            # Raw telemetry data
+│   ├── logs/                       # 📋 System logs
+│   └── README.md                   # Drone system documentation
+├── walking-robot/                  # 🤖 Ground-based robot control
+│   ├── ros2_ws_original/           # 🔧 Original robot package
+│   │   └── src/robot/              # Basic motor control
+│   ├── ros2_ws_robot/              # 🆕 Enhanced walking robot
+│   │   └── src/robot_walking/      # Advanced walking control
+│   └── README.md                   # Robot system documentation
+├── .gitignore                      # Git ignore configuration
+└── README.md                       # This file
 ```
 
 ## 🛠️ System Components
